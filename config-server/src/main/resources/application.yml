@@ -13,7 +13,7 @@ server:
 
 management:
   endpoints:
-    web:
+    jmx:
       exposure:
         include: "*"
     shutdown:
